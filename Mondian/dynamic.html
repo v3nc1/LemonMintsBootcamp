@@ -10,17 +10,25 @@
     <title>Dynamic Mondian</title>
 </head>
 
-<body>
+<body id="body">
+
     <div>
-        <a href="static.html">Static Mondian</a>
-        <a href="dynamic.html">Dynamic Mondian</a>
-        <button type="button" onclick="addDiv()">Generate</button>
+        <div>
+            <a href="static.html">Static Mondian</a>
+        </div>
+        <div>
+            <a href="dynamic.html">Dynamic Mondian</a>
+        </div>
+        <div>
+            <button type="button" onclick="refresh(); addDiv();">Generate</button>
+        </div>
     </div>
 
-    <div id="flex">
+    
 
-    </div>
-
+    <script>
+        addDiv();
+    </script>
 </body>
 
 </html>

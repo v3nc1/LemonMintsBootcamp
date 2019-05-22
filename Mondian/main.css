@@ -35,6 +35,12 @@
     margin: 1.5px;
 }
 
+#divMenu {
+    background-color: black;
+    color: green;
+    opacity: 50%;
+}
+
 #flex {
     display: flex;
     height: 750px;
